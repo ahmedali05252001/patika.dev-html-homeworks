@@ -1,0 +1,48 @@
+body {
+    background-color: bisque;
+}
+h1 {
+    font-style: italic;
+    color: brown;
+}
+#introduction {
+    font-style: italic;
+    font-weight: 550;
+}
+#main-title{
+    margin-left: 3rem;
+}
+
+.info {
+    padding: 5px;
+    text-decoration: underline;
+}
+
+.info > span {
+    color: brown;
+    font-weight: bold;
+}
+
+#content {
+    margin: 3rem auto;
+    width: 60%;
+}
+
+#content div {
+    padding: 5px;
+}
+
+.heading {
+    color: white;
+    background-color: brown;
+    font-weight: bold;
+    border-radius: 1rem;
+}
+
+footer {
+    font-size: 1.5rem;
+    float: right;
+    margin-right: 35rem;
+    font-weight: 500;
+    font-family: "Roboto Mano", monospace;
+}
